@@ -21,6 +21,6 @@ function binarySearch(array, target) {
     return null
 }
 
-const list = [0, 1, 2, 5, 11, 22, 35, 45, 102]
+const list = [-11, 1, 2, 5, 11, 13, 22, 35, 45, 102]
 
-const indexOfFindedTarget = binarySearch(list, 11)
+const indexOfFindedTarget = binarySearch(list, 11) // 4
